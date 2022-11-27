@@ -20,7 +20,16 @@ The cleaned dataset was transformed into new variables more suitable for the lat
 Data was modeled using both supervised and unsupervised learning techniques. In particular, **K-means** modeling was also used to create clusters and profile each of the ZIP Codes. Then, a **Lasso regression** model was used to predict the number of vegetarian restaurants as well as performing variable's selection.
 
 ### **6. Conclusions**
-According to the results of the clustering and regression analysis, a vegetarian restaurant might be located in any member of the clusters 0 (Incipient Veggie Area) and 1 (Booming Veggie Area). Thus, 10 Mexican States in which the Vegetarian food is becoming trendy are:
+According to the results of the clustering analysis, four distinct groups were identified:
+
+Cluster |  Profile 
+:---:| :---:
+0 | Incipient Veggie Area
+1 | Booming Veggie Area
+2 | Lagging Veggie Area
+3 | No Go Area
+
+In this context, a vegetarian restaurant might be located in any member of the clusters **0** (*Incipient Veggie Area*) and **1** (*Booming Veggie Area*). Thus, from the results of both the clustering and the regression analysis, 10 Mexican States in which the Vegetarian food is becoming trendy are:
 
 1. Ciudad de México
 2. Michoacán
